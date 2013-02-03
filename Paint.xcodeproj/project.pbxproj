@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80048A9F16A8CA7200191376 /* UIGestureRecognizer+PaintCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 80048A9E16A8CA7100191376 /* UIGestureRecognizer+PaintCanvas.m */; };
+		80048AAA16A8CCDC00191376 /* ColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80048AA916A8CCDC00191376 /* ColorPickerView.m */; };
+		80775469169DFB7C00079799 /* Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 80775468169DFB7C00079799 /* Path.m */; };
+		8077546A169DFB7C00079799 /* Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 80775468169DFB7C00079799 /* Path.m */; };
 		8090355C169DC7FC0081A85A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8090355B169DC7FC0081A85A /* UIKit.framework */; };
 		8090355E169DC7FC0081A85A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8090355D169DC7FC0081A85A /* Foundation.framework */; };
 		80903560169DC7FC0081A85A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8090355F169DC7FC0081A85A /* CoreGraphics.framework */; };
@@ -17,12 +21,20 @@
 		80903570169DC7FC0081A85A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8090356F169DC7FC0081A85A /* Default@2x.png */; };
 		80903572169DC7FC0081A85A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80903571169DC7FC0081A85A /* Default-568h@2x.png */; };
 		80903575169DC7FC0081A85A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80903573169DC7FC0081A85A /* MainStoryboard.storyboard */; };
-		80903578169DC7FC0081A85A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80903577169DC7FC0081A85A /* ViewController.m */; };
 		80903580169DC7FD0081A85A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8090357F169DC7FD0081A85A /* SenTestingKit.framework */; };
 		80903581169DC7FD0081A85A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8090355B169DC7FC0081A85A /* UIKit.framework */; };
 		80903582169DC7FD0081A85A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8090355D169DC7FC0081A85A /* Foundation.framework */; };
 		8090358A169DC7FD0081A85A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80903588169DC7FD0081A85A /* InfoPlist.strings */; };
 		8090358D169DC7FD0081A85A /* PaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090358C169DC7FD0081A85A /* PaintTests.m */; };
+		80903598169DC8460081A85A /* PaintCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 80903597169DC8460081A85A /* PaintCanvas.m */; };
+		80903599169DC8460081A85A /* PaintCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 80903597169DC8460081A85A /* PaintCanvas.m */; };
+		8094F57316AB2A1800675294 /* PaintableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8094F57216AB2A1800675294 /* PaintableViewController.m */; };
+		80DFB6E616A0632600441BE4 /* CollectionOfPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFB6E516A0632600441BE4 /* CollectionOfPaths.m */; };
+		80DFB6E716A0632600441BE4 /* CollectionOfPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFB6E516A0632600441BE4 /* CollectionOfPaths.m */; };
+		80DFB6EB16A07F7D00441BE4 /* PaintingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFB6EA16A07F7C00441BE4 /* PaintingViewController.m */; };
+		80DFB6EC16A07F7D00441BE4 /* PaintingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFB6EA16A07F7C00441BE4 /* PaintingViewController.m */; };
+		80DFB6EE16A09E8F00441BE4 /* CGPoint+Operator.c in Sources */ = {isa = PBXBuildFile; fileRef = 80DFB6ED16A09E8F00441BE4 /* CGPoint+Operator.c */; };
+		80DFB6EF16A09E8F00441BE4 /* CGPoint+Operator.c in Sources */ = {isa = PBXBuildFile; fileRef = 80DFB6ED16A09E8F00441BE4 /* CGPoint+Operator.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80048A9D16A8CA7100191376 /* UIGestureRecognizer+PaintCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+PaintCanvas.h"; sourceTree = "<group>"; };
+		80048A9E16A8CA7100191376 /* UIGestureRecognizer+PaintCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+PaintCanvas.m"; sourceTree = "<group>"; };
+		80048AA816A8CCDC00191376 /* ColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerView.h; path = ../ColorPickerView.h; sourceTree = "<group>"; };
+		80048AA916A8CCDC00191376 /* ColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPickerView.m; path = ../ColorPickerView.m; sourceTree = "<group>"; };
+		80775467169DFB7C00079799 /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		80775468169DFB7C00079799 /* Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Path.m; sourceTree = "<group>"; };
 		80903557169DC7FC0081A85A /* Paint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8090355B169DC7FC0081A85A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8090355D169DC7FC0081A85A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,14 +68,22 @@
 		8090356F169DC7FC0081A85A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		80903571169DC7FC0081A85A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		80903574169DC7FC0081A85A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		80903576169DC7FC0081A85A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		80903577169DC7FC0081A85A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8090357E169DC7FD0081A85A /* PaintTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8090357F169DC7FD0081A85A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		80903587169DC7FD0081A85A /* PaintTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaintTests-Info.plist"; sourceTree = "<group>"; };
 		80903589169DC7FD0081A85A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8090358B169DC7FD0081A85A /* PaintTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintTests.h; sourceTree = "<group>"; };
 		8090358C169DC7FD0081A85A /* PaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintTests.m; sourceTree = "<group>"; };
+		80903596169DC8460081A85A /* PaintCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintCanvas.h; sourceTree = "<group>"; };
+		80903597169DC8460081A85A /* PaintCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintCanvas.m; sourceTree = "<group>"; };
+		8094F57116AB2A1800675294 /* PaintableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintableViewController.h; sourceTree = "<group>"; };
+		8094F57216AB2A1800675294 /* PaintableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintableViewController.m; sourceTree = "<group>"; };
+		80DFB6E416A0632600441BE4 /* CollectionOfPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionOfPaths.h; sourceTree = "<group>"; };
+		80DFB6E516A0632600441BE4 /* CollectionOfPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionOfPaths.m; sourceTree = "<group>"; };
+		80DFB6E916A07F7C00441BE4 /* PaintingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintingViewController.h; sourceTree = "<group>"; };
+		80DFB6EA16A07F7C00441BE4 /* PaintingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintingViewController.m; sourceTree = "<group>"; };
+		80DFB6ED16A09E8F00441BE4 /* CGPoint+Operator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CGPoint+Operator.c"; sourceTree = "<group>"; };
+		80DFB6F016A09FF900441BE4 /* CGPoint+Operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGPoint+Operator.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +110,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80048AA416A8CC6E00191376 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80DFB6E416A0632600441BE4 /* CollectionOfPaths.h */,
+				80775467169DFB7C00079799 /* Path.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		80048AA516A8CC7800191376 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80048AA816A8CCDC00191376 /* ColorPickerView.h */,
+				80903596169DC8460081A85A /* PaintCanvas.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		80048AA616A8CC8500191376 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8094F57116AB2A1800675294 /* PaintableViewController.h */,
+				80DFB6E916A07F7C00441BE4 /* PaintingViewController.h */,
+				80DFB6EA16A07F7C00441BE4 /* PaintingViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		80048AA716A8CC9400191376 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				80048A9D16A8CA7100191376 /* UIGestureRecognizer+PaintCanvas.h */,
+				80048A9E16A8CA7100191376 /* UIGestureRecognizer+PaintCanvas.m */,
+				80DFB6ED16A09E8F00441BE4 /* CGPoint+Operator.c */,
+				80DFB6F016A09FF900441BE4 /* CGPoint+Operator.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		8090354C169DC7FC0081A85A = {
 			isa = PBXGroup;
 			children = (
@@ -117,11 +182,9 @@
 		80903561169DC7FC0081A85A /* Paint */ = {
 			isa = PBXGroup;
 			children = (
-				8090356A169DC7FC0081A85A /* AppDelegate.h */,
-				8090356B169DC7FC0081A85A /* AppDelegate.m */,
-				80903573169DC7FC0081A85A /* MainStoryboard.storyboard */,
-				80903576169DC7FC0081A85A /* ViewController.h */,
-				80903577169DC7FC0081A85A /* ViewController.m */,
+				80048AA516A8CC7800191376 /* Views */,
+				80048AA416A8CC6E00191376 /* Model */,
+				80048AA616A8CC8500191376 /* View Controllers */,
 				80903562169DC7FC0081A85A /* Supporting Files */,
 			);
 			path = Paint;
@@ -130,6 +193,11 @@
 		80903562169DC7FC0081A85A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8094F57A16AB5B0000675294 /* private */,
+				80048AA716A8CC9400191376 /* Categories */,
+				80903573169DC7FC0081A85A /* MainStoryboard.storyboard */,
+				8090356A169DC7FC0081A85A /* AppDelegate.h */,
+				8090356B169DC7FC0081A85A /* AppDelegate.m */,
 				80903563169DC7FC0081A85A /* Paint-Info.plist */,
 				80903564169DC7FC0081A85A /* InfoPlist.strings */,
 				80903567169DC7FC0081A85A /* main.m */,
@@ -158,6 +226,18 @@
 				80903588169DC7FD0081A85A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8094F57A16AB5B0000675294 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				8094F57216AB2A1800675294 /* PaintableViewController.m */,
+				80775468169DFB7C00079799 /* Path.m */,
+				80DFB6E516A0632600441BE4 /* CollectionOfPaths.m */,
+				80903597169DC8460081A85A /* PaintCanvas.m */,
+				80048AA916A8CCDC00191376 /* ColorPickerView.m */,
+			);
+			name = private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +352,14 @@
 			files = (
 				80903568169DC7FC0081A85A /* main.m in Sources */,
 				8090356C169DC7FC0081A85A /* AppDelegate.m in Sources */,
-				80903578169DC7FC0081A85A /* ViewController.m in Sources */,
+				80903598169DC8460081A85A /* PaintCanvas.m in Sources */,
+				80775469169DFB7C00079799 /* Path.m in Sources */,
+				80DFB6E616A0632600441BE4 /* CollectionOfPaths.m in Sources */,
+				80DFB6EB16A07F7D00441BE4 /* PaintingViewController.m in Sources */,
+				80DFB6EE16A09E8F00441BE4 /* CGPoint+Operator.c in Sources */,
+				80048A9F16A8CA7200191376 /* UIGestureRecognizer+PaintCanvas.m in Sources */,
+				80048AAA16A8CCDC00191376 /* ColorPickerView.m in Sources */,
+				8094F57316AB2A1800675294 /* PaintableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +368,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8090358D169DC7FD0081A85A /* PaintTests.m in Sources */,
+				80903599169DC8460081A85A /* PaintCanvas.m in Sources */,
+				8077546A169DFB7C00079799 /* Path.m in Sources */,
+				80DFB6E716A0632600441BE4 /* CollectionOfPaths.m in Sources */,
+				80DFB6EC16A07F7D00441BE4 /* PaintingViewController.m in Sources */,
+				80DFB6EF16A09E8F00441BE4 /* CGPoint+Operator.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +438,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -378,6 +471,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Paint/Paint-Prefix.pch";
 				INFOPLIST_FILE = "Paint/Paint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,6 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Paint/Paint-Prefix.pch";
 				INFOPLIST_FILE = "Paint/Paint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -447,6 +542,7 @@
 				80903592169DC7FD0081A85A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80903593169DC7FD0081A85A /* Build configuration list for PBXNativeTarget "PaintTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +551,7 @@
 				80903595169DC7FD0081A85A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
