@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PaintCanvas.h"
-
+#import "ColorPickerView.h"
 @interface PaintableViewController : UIViewController 
 
 
@@ -27,9 +27,14 @@
 
 
 //view
-@property (weak, nonatomic) IBOutlet PaintCanvas *canvas;
+@property (weak, nonatomic) IBOutlet PaintCanvas * canvas;
+
+@property (weak, nonatomic) IBOutlet UIView * currentColorIndicatorView;
+
+@property (weak, nonatomic) IBOutlet ColorPickerView * colorPickerView;
 
 //model
 @property (nonatomic, strong) CollectionOfPaths * paths;
+
 
 @end
