@@ -10,6 +10,10 @@
 #import "ColorPickerView.h"
 
 
+@interface PaintingViewController()
+
+@end
+
 @implementation PaintingViewController
 
 
@@ -23,9 +27,7 @@
     //call the superclass implementation
     [super viewWillAppear:animated];
     
-    //call your drawing method(s) here:
-    //...
-    
+
     //update the view
     [self.canvas setNeedsDisplay];
 
